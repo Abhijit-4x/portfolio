@@ -32,13 +32,13 @@ const Contact = () => {
                             />
                             <button 
                                 onClick={()=>alert("This function is not added yet!")}
-                                className='bg-purple-200 p-[0.75rem] text-[1.5rem] font-bold rounded active:scale-[0.95]' >
+                                className='bg-purple-200 p-[0.75rem] text-[1.5rem] text-gray-700 font-bold rounded active:scale-[0.95] scrollbar-hide' >
                                     Send Message
                             </button>
                         </form>
                     </div>   
                     <div className='flex flex-col w-[85%]'>
-                        <h1 className='font-bold text-[2rem] p-[1rem] m-auto'>Find me here</h1>
+                        <h1 className='font-bold text-[2rem] p-[1rem] m-auto uppercase'>Find me here</h1>
                         <div className='grid grid-cols-6  place-content-center gap-10'>
                             <Github />
                             <LinkedIn />

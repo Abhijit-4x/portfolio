@@ -17,13 +17,13 @@ const Navbar = () => {
                         Home
                     </li>
                   </Link>
-                  <Link to="/">
+                  <Link to="/portfolio">
                     <li 
                       className=' text-[1.5rem] hover:bg-my-color-dark hover:text-white p-4 rounded active:scale-[0.85] transition-colors duration-[300ms] shadow-md hover:shadow-gray-700 hover:shadow-inner'>
                         Portfolio
                     </li>
                   </Link>
-                  <Link to="/">
+                  <Link to="/about">
                     <li 
                       className=' text-[1.5rem] hover:bg-my-color-dark hover:text-white p-4 rounded active:scale-[0.85] transition-colors duration-[300ms] shadow-md hover:shadow-gray-700 hover:shadow-inner'>
                         About
